@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    width: 300px;
+    margin: 0 5px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+ul {
+    list-style: none;
+    min-height: 25px;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(182, 250, 142);
+}
+
+.btn-delete {
+    float: right;
+}
